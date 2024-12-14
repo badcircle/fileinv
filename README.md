@@ -34,12 +34,12 @@ gcc -o file_scanner file_scanner.c -lsqlite3
 
 First run (creates database):
 ```bash
-./file_scanner
+./file_inv
 ```
 
 Update existing database and mark deleted files:
 ```bash
-./file_scanner -refresh
+./file_inv -refresh
 ```
 
 ## Database Schema
