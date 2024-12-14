@@ -27,7 +27,7 @@ A fast C program that scans directories recursively and stores file information 
 
 With MinGW-w64:
 ```bash
-gcc -o file_scanner file_scanner.c -lsqlite3
+gcc -o file_inv file_scanner.c -lsqlite3
 ```
 
 ## Usage
